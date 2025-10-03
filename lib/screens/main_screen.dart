@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:keep_note/widgets/folder_card.dart';
-import 'package:keep_note/widgets/info_banner.dart';
+import 'package:keep_note/widgets/cards/folder_card.dart';
+import 'package:keep_note/widgets/cards/info_banner.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
   //TODO: Work on creating a column
   @override
   Widget build(BuildContext context) {
-    final screenPadding = MediaQuery.of(context).padding;
+    // final screenPadding = MediaQuery.of(context).padding;
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(

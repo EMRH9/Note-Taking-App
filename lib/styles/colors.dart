@@ -12,6 +12,7 @@ class AppColors {
   static const Color iceBlue = Color(0xFFE7E7FF); // Very light blue
   static const Color paleBlue =
       Color(0xFFF2F4F5); // Very pale blue       // True white
-  static const Color backgroundColor =
-      Color(0xFFF9F8FD); // Very pale blue       // True white
+  static const Color backgroundColor = Color(0xFFF9F8FD);
+  // Very pale blue       // True white
+  static const Color appBarLightPurple = Color(0xff6B4EFF);
 }

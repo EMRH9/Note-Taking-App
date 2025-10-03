@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:keep_note/screens/note_list_screen.dart';
 import 'package:keep_note/styles/themes.dart';
-import 'package:keep_note/widgets/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +29,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: MainScreen(),
+      body: NoteListScreen(),
     );
   }
 }

@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:keep_note/widgets/folder_card_foreground.dart';
+import 'package:keep_note/widgets/cards/folder_card_foreground.dart';
 
 class FolderCard extends StatelessWidget {
-  FolderCard({
+  const FolderCard({
     super.key,
     required this.kCategory,
     required this.kFileSize,
     required this.kFilesNum,
     required this.kIcon,
   });
-  IconData kIcon;
-  String kCategory;
-  int kFilesNum;
-  int kFileSize;
+  final IconData kIcon;
+  final String kCategory;
+  final int kFilesNum;
+  final int kFileSize;
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -54,7 +54,7 @@ class FolderCard extends StatelessWidget {
                 height: 3,
               ),
               Text(
-                '$kFileSize Files',
+                '$kFilesNum Files',
                 style: const TextStyle(
                   fontSize: 15,
                 ),

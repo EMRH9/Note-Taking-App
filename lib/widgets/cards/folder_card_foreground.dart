@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
 class FolderCardForeground extends StatelessWidget {
-  const FolderCardForeground({Key? key}) : super(key: key);
+  const FolderCardForeground({super.key});
 
-  @override
   @override
   Widget build(
     BuildContext context,
   ) {
-    // You can access the folder size using this:
     const folderSize = Size(203, 218);
     return CustomPaint(
       size: folderSize,
